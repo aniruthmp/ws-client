@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: ws-client
+
+security:
+  basic:
+    enabled: false
+
+management:
+  security:
+    enabled: false
+
+client:
+  default-uri: "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso"
+  timeout: 2000
